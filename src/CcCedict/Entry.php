@@ -62,7 +62,7 @@ class Entry
      *
      * @return array
      */
-    public function getOptional(array $options)
+    public function getOptional($options)
     {
         foreach ($options as $option) {
             $this->dataOutput[$option] = $this->resolveOption($option);

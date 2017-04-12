@@ -51,7 +51,9 @@ $parser->setNumberOfBlocks(INF);
 
 // do the parse
 foreach ($parser->parse() as $output) {
+	echo '<pre>';
 	print_r($output);
+	echo '</pre>';
 }
 
 // remove the temporary file

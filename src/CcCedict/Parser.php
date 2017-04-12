@@ -59,7 +59,7 @@ class Parser
      *
      * @param array $options
      */
-    public function setOptions(array $options)
+    public function setOptions($options)
     {
         $this->options = $options;
     }
@@ -69,7 +69,7 @@ class Parser
      *
      * @param int $blockSize
      */
-    public function setBlockSize(int $blockSize = 50)
+    public function setBlockSize($blockSize)
     {
         $this->blockSize = $blockSize;
     }
@@ -79,7 +79,7 @@ class Parser
      *
      * @param int $startLine
      */
-    public function setStartLine(int $startLine = 0)
+    public function setStartLine($startLine)
     {
         $this->startLine = $startLine;
     }
@@ -89,7 +89,7 @@ class Parser
      *
      * @param float $numberOfBlocks
      */
-    public function setNumberOfBlocks(float $numberOfBlocks = INF)
+    public function setNumberOfBlocks($numberOfBlocks)
     {
         $this->numberOfBlocks = $numberOfBlocks;
     }

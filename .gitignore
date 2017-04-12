@@ -1,3 +1,4 @@
+.DS_Store
 demo/*.gz
 demo/*.zip
 output.json
